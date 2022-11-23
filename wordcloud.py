@@ -1,7 +1,7 @@
 from wordcloud import WordCloud
-import re
-from PIL import Image
-import numpy as np
+# import re
+# from PIL import Image
+# import numpy as np
 
 # text = open('/Users/karasu/Downloads/top.txt').read()
 # wordcloud = WordCloud(
@@ -12,6 +12,8 @@ import numpy as np
 #             height=200
 #             ).generate(text)
 # wordcloud.to_file("/Users/karasu/Downloads/1.png")
+
+#colormap: https://karupoimou.hatenablog.com/entry/2019/05/17/153207
 
 text = open('/Users/karasu/Downloads/genre.txt').read()
 wordcloud = WordCloud(
